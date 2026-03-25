@@ -183,35 +183,3 @@ export class Ruin {
         this.structures = structures;
     }
 }
-
-// export class PeakRuin extends Ruin {
-//     unlocksAtCapitalHallLevel: number;
-    
-//     constructor({
-//         structures,
-//         unlocksAtCapitalHallLevel,
-//     }: {
-//         structures: [Structure, number][];
-//         unlocksAtCapitalHallLevel: number;
-//     }) {
-//         super({ name: "Ruins", structures });
-//         this.unlocksAtCapitalHallLevel = unlocksAtCapitalHallLevel;
-//     }
-// }
-
-// export class DistrictRuin extends Ruin {
-//     unlocksAtDistrictHallLevel: number;
-    
-//     constructor({
-//         name = "Ruins",
-//         structures,
-//         unlocksAtDistrictHallLevel,
-//     }: {
-//         name?: "Ruins" | "Barracks Ruins";
-//         structures: [Structure, number][];
-//         unlocksAtDistrictHallLevel: number;
-//     }) {
-//         super({ name, structures });
-//         this.unlocksAtDistrictHallLevel = unlocksAtDistrictHallLevel;
-//     }
-// }
